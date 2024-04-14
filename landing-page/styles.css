@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  box-sizing: border-box;
+  margin:0;
+  
+
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  margin-right: 150px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.header .logo{
+  font-size: 24px;
+  font-weight: 800;
+  color: black;
+  margin-left: 200px;
+}
+.header{
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+
+}
+/** hero section **/
+
+.hero-section{
+  background-color: black;
+  display: flex;
+  height: 450px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  
+}
+.main-text{
+  font-size: 48px;
+  font-weight: bolder;
+  color: gold;
+  margin-left: 200px;
+
+}
+.sub-text{
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 8px;
+  margin-left: 200px;
+  padding: 10px;
+}
+button {
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: 200px;
+}
+.left-content{
+  margin-top: 10px;
+  margin-right: 150px;
+
+}
+.left-content img{
+  width: 300px;
+  height: 300px;
+}
+
+/** information section **/
+.info img {
+  width: 200px;
+  height: 200px;
+}
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-left: 200px;
+  color: goldenrod;
+
+}
+.box{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 200px;
+}
+.info {
+  max-width: 200px;
+  text-align: center;
+}
+.info .text{
+  color: grey;
+}
+
+/** quote section**/
+
+.quote{
+  width: 1000x;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-top: 50px;
+}
+.quote .quote-main{
+  color: silver;
+  margin-left: 200px;
+  margin-right: 150px;
+  font-size: larger;
+}
+.quote .author{
+  color: gold;
+  margin-left: 200px;
+  margin-right: 150px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/** action **/
+.call{
+  width: 750px;
+  height: 100px;
+  background-color: lightskyblue;
+  margin-top: 15px;
+  margin-left: 500px;
+  margin-right: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imp-text{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.call button{
+  background-color: wheat;
+  border: black;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+ /** Footer **/
+
+ .footer{
+  background-color: black;
+  height: 50px;
+ }
+ .footer p{
+  color: white;
+  text-align: center;
+  font-size: large;
+  padding-top: 15px;
+ }
+
+
+
+
+
+
+
+
